@@ -11,7 +11,6 @@ com\mycompany\test\connectionPool\DBResourceManager.class
 com\mycompany\test\command\Commands$3.class
 com\mycompany\test\command\Login.class
 com\mycompany\test\model\User.class
-validator\PasswordValidator.class
 com\mycompany\test\filter\SimpleFilter.class
 com\mycompany\test\model\User$ROLE.class
 com\mycompany\test\connectionPool\ConnectionPool_.class
@@ -25,3 +24,4 @@ com\mycompany\test\command\EmptyCommand.class
 com\mycompany\test\data\UserDAO.class
 com\mycompany\test\hash\HashPassword.class
 com\mycompany\test\servlet\Sample.class
+com\mycompany\test\validator\PasswordValidator.class

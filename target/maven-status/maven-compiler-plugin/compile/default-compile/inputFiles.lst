@@ -2,13 +2,13 @@ C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\filter\SimpleFi
 C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\servlet\Sample.java
 C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\command\ExitCommand.java
 C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\model\User.java
-C:\Users\User\IdeaProjects\Test\src\main\java\validator\PasswordValidator.java
 C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\command\RegisterCommand.java
 C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\connectionPool\ConnectionPool.java
 C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\connectionPool\DBParameter.java
 C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\connectionPool\ConnectionPool_.java
 C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\data\DataAccessObject.java
 C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\connectionPool\DBResourceManager.java
+C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\validator\PasswordValidator.java
 C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\command\EmptyCommand.java
 C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\hash\HashPassword.java
 C:\Users\User\IdeaProjects\Test\src\main\java\com\mycompany\test\manager\MessageManager.java

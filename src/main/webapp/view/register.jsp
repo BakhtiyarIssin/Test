@@ -21,8 +21,9 @@
             <input type ="hidden" name="command" value ="register" />
             <label><input type ="text" name ="login"></label> login <br>
             <label><input type ="password" name ="password"></label> password <br>
-            <br/> ${sessionScope.password}
-            <br/> ${sessionScope.error}
+            <c:out value="${sessionScope.password}" />
+            <c:out value="${sessionScope.error}" />
+            <c:out value="${sessionScope.userIsExist}" />
             <br/> ${wrongAction}
             <br/> ${nullPage}
             <br/>

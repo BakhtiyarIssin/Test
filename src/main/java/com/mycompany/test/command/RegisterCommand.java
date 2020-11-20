@@ -9,6 +9,7 @@ import com.mycompany.test.data.UserDAO;
 import com.mycompany.test.hash.HashPassword;
 import com.mycompany.test.model.User;
 import com.mycompany.test.manager.ConfigurationManager;
+import com.mycompany.test.manager.MessageManager;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -45,7 +46,9 @@ public class RegisterCommand implements Command {
         }
         else
         {
-            page = ConfigurationManager.getProperty("path.page.index");
+            page = ConfigurationManager.getProperty("path.page.register");
+            
+            request.getSession().setAttribute("userIsExist", MessageManager.getProperty("message.userIsExist"));
         }       
         
         return page;

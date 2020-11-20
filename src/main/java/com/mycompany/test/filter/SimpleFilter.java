@@ -42,9 +42,13 @@ public class SimpleFilter implements Filter{
         
         final String password = req.getParameter("password");
         
+        req.getSession().setAttribute("error", "");
+        
+        req.getSession().setAttribute("password", "");
+        
         if(login.isEmpty() || password.isEmpty())
         {
-            String page = ConfigurationManager.getProperty("path.page.login");
+            String page = ConfigurationManager.getProperty("path.page.register");
             
             req.getSession().setAttribute("error", MessageManager.getProperty("message.error"));
             
@@ -53,7 +57,7 @@ public class SimpleFilter implements Filter{
         }         
         else if(!PasswordValidator.validate(password))
         {
-            String page = ConfigurationManager.getProperty("path.page.login");
+            String page = ConfigurationManager.getProperty("path.page.register");
             
             req.getSession().setAttribute("password", MessageManager.getProperty("message.password"));
             
